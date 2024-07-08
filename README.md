@@ -6,3 +6,21 @@ Sources for photos used:
 
 
 easyJake
+
+
+python3 -m venv venv                
+. venv/bin/activate           
+
+
+pip install Flask           
+
+python3 -m pip install --upgrade pip' command
+
+flask run --reload                
+
+
+#####
+
+Activate the virtual environment by running . venv/bin/activate in the root of the repository.
+Run the app with flask run --reload.
+
