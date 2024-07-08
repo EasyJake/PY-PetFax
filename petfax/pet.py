@@ -1,10 +1,7 @@
-from flask import Blueprint, render_template
-import json
+from flask import Blueprint 
 
-bp = Blueprint('pet', __name__)
+bp = Blueprint('pet', __name__, url_prefix="/pets")
 
 @bp.route('/')
-def index():
-    with open('pets.json') as f:
-        pets = json.load(f)
-    return render_template('index.html', pets=pets)
+def index(): 
+    return 'This is the pets index'
