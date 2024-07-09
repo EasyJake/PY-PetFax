@@ -1,5 +1,3 @@
-<!-- PY-PETFAX/petfax/templates/pets/index.html -->
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -13,12 +11,15 @@
     {% for pet in pets %}
         <h2>{{ pet.pet_name }}</h2>
         <img src="{{ pet.pet_photo }}" alt="Photo of pet"/>
-        <a href="/pets/{{ pet.pet_id }}">Learn More ></a>
+        <a href="{{ url_for('pet.show', pet_id=pet.pet_id) }}">Learn More ></a>
     {% endfor %}
     <h4> 
         We'd love to hear some more fun facts.
-        <a href="/facts/new">Submit some here</a>
+        <a href="{{ url_for('fact.new') }}">Submit some here</a>
     </h4>
-</body>
+
+    <h4> 
+       <a href="{{ url_for('pet.index') }}">View All Pets</a>
+    </h4>
 </body>
 </html>
