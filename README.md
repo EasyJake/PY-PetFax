@@ -59,9 +59,8 @@ PetFax is a simple Flask-based web application that provides information about p
    Open your web browser and navigate to `http://127.0.0.1:5000`.
 
 ## Project Structure
-\`\`\`
+
 petfax/
-│
 ├── assets/
 │   ├── alvan-nee-ZCHj_2IJPO0-unsplash.jpg
 │   ├── emiliano-vittoriosi-3FSBkX4yG80-unsplash.jpg
@@ -85,7 +84,7 @@ petfax/
 ├── pets.json
 ├── README.md
 └── requirements.txt
-\`\`\`
+
 
 ## Data Sources
 - **Dog Photo**: Karseten Winegeart on Unsplash
