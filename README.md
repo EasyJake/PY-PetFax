@@ -58,41 +58,12 @@ PetFax is a simple Flask-based web application that provides information about p
 3. **Access the application:**
    Open your web browser and navigate to `http://127.0.0.1:5000`.
 
-## Project Structure
-
-petfax/
-├── assets/
-│   ├── alvan-nee-ZCHj_2IJPO0-unsplash.jpg
-│   ├── emiliano-vittoriosi-3FSBkX4yG80-unsplash.jpg
-│   └── karsten-winegeart-5PVXkqt2s9k-unsplash.jpg
-├── petfax/
-│   ├── __init__.py
-│   ├── fact.py
-│   ├── pet.py
-│   ├── static/
-│   │   └── style.css
-│   ├── templates/
-│   │   ├── 404.html
-│   │   ├── index.html
-│   │   ├── new.html
-│   │   └── pets/
-│   │       ├── index.html
-│   │       └── show_pet.html
-├── venv/
-├── .gitignore
-├── app.py
-├── pets.json
-├── README.md
-└── requirements.txt
-
 
 ## Data Sources
 - **Dog Photo**: Karseten Winegeart on Unsplash
 - **Cat Photo**: Alvan Nee on Unsplash
 - **Rabbit Photo**: Emiliano Vittoriosi on Unsplash
 
-## Screenshots
-Add screenshots of the application here to give users a preview of what the app looks like.
 
 ## Contributing
 1. Fork the repository
