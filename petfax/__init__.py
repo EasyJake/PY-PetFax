@@ -1,5 +1,6 @@
-# config                    
-from flask import Flask
+# PY-PETFAX/petfax/__init__.py
+                  
+from flask import Flask, render_template
 
 # factory
 def create_app():
@@ -8,7 +9,7 @@ def create_app():
     # index route
     @app.route('/')
     def index(): 
-        return 'Welcome to PetFax!'
+        return render_template('index.html')
 
     # register pet blueprint 
     from . import pet 
