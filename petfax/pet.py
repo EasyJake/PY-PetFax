@@ -24,4 +24,4 @@ def show(pet_id):
     else:
         return render_template('404.html'), 404  # Return a custom 404 page if the pet is not found
 
-# Ensure to also include a 404.html in your templates if you don't have one yet.
+
