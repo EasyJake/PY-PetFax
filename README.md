@@ -5,10 +5,10 @@ Sources for photos used:
 - Rabbit: [Emiliano Vittoriosi on Unsplash](https://unsplash.com/photos/3FSBkX4yG80)
 
 
-easyJake
+
+python3 -m venv venv   
 
 
-python3 -m venv venv                
 . venv/bin/activate           
 
 
@@ -24,3 +24,4 @@ flask run --reload
 Activate the virtual environment by running . venv/bin/activate in the root of the repository.
 Run the app with flask run --reload.
 
+easyJake
